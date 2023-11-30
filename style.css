@@ -1,0 +1,89 @@
+* Background color of the navbar */
+.navbar {
+  background-color: #3498db;
+}
+
+/* Color of the navbar brand (logo or text) */
+.navbar-brand {
+  font-size: 50px arial black;
+}
+
+/* Color of the navbar brand on hover */
+.navbar-brand:hover {
+  color: #ecf0f1; /* Light gray color */
+}
+
+/* Color of the navbar links */
+.navbar-nav .nav-link {
+  color: #070606; /* White color */
+  text-align: center ;
+  border-radius : 2px solid black ;
+}
+
+/* Color of the navbar links on hover */
+.navbar-nav .nav-link:hover {
+  color: #c9d4d4da; /* Light gray color */
+}
+
+/* Background color of the toggle button */
+.navbar-toggler {
+  background-color: #ecf0f1; /* Light gray color */
+}
+
+/* Color of the toggle button icon */
+.navbar-toggler-icon {
+  background-color: #cddada18; 
+}
+
+/* Color of the toggle button icon on hover */
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: #eaeff1; /* Darker blue color */
+}
+
+/* Background color of the dropdown menu */
+.navbar-nav .dropdown-menu {
+  background-color:hwb(204 91% 5% / 0.664); /* Blue color */
+}
+
+/* Color of the dropdown menu links */
+.navbar-nav .dropdown-menu .nav-link {
+  color: #0a0909ab; 
+}
+@media (max-width: 700px) {
+  .mobile-hide {
+    display: none !important;
+  }
+}
+
+.Box
+{
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(233, 255, 255);
+  
+}
+
+.container
+{
+  text-align: center;
+  font-size: 30px arial black
+
+}
+/* Color of the dropdown menu links on hover */
+.navbar-nav .dropdown-menu .nav-link:hover {
+  color: #ecf0f1; /* Light gray color */
+}
+.mobile-view
+{
+  display: none;
+}
+@media (max-width: 767px) {
+  #mobile-menu {
+    display: block;
+  }
+  .desktop-menu {
+    display: none;
+  }
+}
